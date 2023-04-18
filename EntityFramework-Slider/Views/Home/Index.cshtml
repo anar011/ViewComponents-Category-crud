@@ -12,6 +12,9 @@
 
         <section id="slider">
             <div class="owl-carousel slider">
+
+                   @* @await Component.InvokeAsync("Slider");*@
+
             @foreach (var item in Model.Sliders)
             {
               <div> <img src="~/img/@item.Image" alt=""> </div>
